@@ -2,7 +2,7 @@
 import "../styles/global.css";
 
 const {
-  title = "Katy Batista | Songwriter · Lyricist · Author"
+  title = "Katy Batista | Songwriter, Lyricist & Author"
 } = Astro.props;
 ---
 
@@ -19,7 +19,79 @@ const {
 
   <meta
     name="description"
-    content="Official website of Katy Batista. Original songs, lyrics and musical works."
+    content="Site oficial de Katy Batista. Descubra um catálogo de músicas originais, letras e obras musicais disponíveis para interpretação, edição e licenciamento."
+  />
+
+  <meta name="robots" content="index,follow" />
+
+  <link rel="canonical" href="https://katybatista.com/" />
+
+  <meta name="theme-color" content="#F4EFE8" />
+
+  <!-- Open Graph -->
+
+  <meta property="og:type" content="website" />
+
+  <meta property="og:url" content="https://katybatista.com/" />
+
+  <meta
+    property="og:title"
+    content="Katy Batista | Songwriter, Lyricist & Author"
+  />
+
+  <meta
+    property="og:description"
+    content="Catálogo de músicas originais, letras e obras musicais de Katy Batista, disponível para artistas, produtores e licenciamento."
+  />
+
+  <meta
+    property="og:image"
+    content="https://katybatista.com/images/og-image.jpg"
+  />
+
+  <meta property="og:locale" content="pt_PT" />
+
+  <meta property="og:site_name" content="Katy Batista" />
+
+  <!-- Twitter -->
+
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <meta
+    name="twitter:title"
+    content="Katy Batista | Songwriter, Lyricist & Author"
+  />
+
+  <meta
+    name="twitter:description"
+    content="Catálogo de músicas originais, letras e obras musicais de Katy Batista, disponível para artistas, produtores e licenciamento."
+  />
+
+  <meta
+    name="twitter:image"
+    content="https://katybatista.com/images/og-image.jpg"
+  />
+
+  <!-- Structured Data (Schema.org) -->
+
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Katy Batista",
+      "url": "https://katybatista.com",
+      "image": "https://katybatista.com/images/autora.jpg",
+      "description": "Autora, compositora e letrista de obras musicais originais.",
+      "jobTitle": [
+        "Songwriter",
+        "Lyricist",
+        "Author"
+      ],
+      "sameAs": [
+        "https://www.instagram.com/katypbatista"
+      ]
+    })}
   />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
