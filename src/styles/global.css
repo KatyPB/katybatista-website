@@ -1099,3 +1099,172 @@ nav a{
     margin-bottom:16px;
 
 }
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media (max-width: 768px){
+
+    /* ---------- HEADER ---------- */
+
+    .header{
+
+        padding:24px 20px;
+        flex-direction:column;
+        align-items:flex-start;
+
+    }
+
+    .brand h1{
+
+        font-size:38px;
+
+    }
+
+    .brand p{
+
+        font-size:11px;
+        letter-spacing:.18em;
+        margin-top:8px;
+
+    }
+
+    nav{
+
+        margin-top:28px;
+        gap:14px;
+
+    }
+
+    nav a{
+
+        font-size:13px;
+
+    }
+
+    /* ---------- HERO ---------- */
+
+    .hero{
+
+        min-height:100vh;
+        justify-content:center;
+        align-items:flex-end;
+        padding:0 20px 50px;
+        background-position:center;
+
+    }
+
+    .hero-content{
+
+        justify-content:center;
+        padding-top:160px;
+
+    }
+
+    .hero-text{
+
+        width:100%;
+        max-width:360px;
+        transform:none;
+        text-align:center;
+
+    }
+
+    .hero-text h2{
+
+        font-size:42px;
+        line-height:1.05;
+
+    }
+
+    .hero-text p{
+
+        font-size:16px;
+        line-height:1.7;
+
+    }
+
+    .button{
+
+        width:100%;
+        text-align:center;
+
+    }
+
+        /* ---------- ESTRUTURA ---------- */
+
+    .container{
+
+        padding:0 20px;
+
+    }
+
+    .container-wide{
+
+        padding:0 20px;
+
+    }
+
+    .obras-header{
+
+        flex-direction:column;
+        gap:20px;
+
+    }
+
+    .obras-header p{
+
+        width:100%;
+        margin-right:0;
+
+    }
+
+    .manifesto-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .manifesto-conteudo{
+
+        margin:0;
+        max-width:100%;
+        padding:40px 0;
+
+    }
+
+    .manifesto-texto{
+
+        padding:0;
+
+    }
+
+    .manifesto-colunas{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .manifesto-imagem{
+
+        margin-right:0;
+        min-height:350px;
+
+    }
+
+    .sobre-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .footer-container{
+
+        grid-template-columns:1fr;
+        gap:40px;
+        padding:0 20px;
+
+    }
+
+}
